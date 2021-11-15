@@ -59,3 +59,9 @@ Click "Upload" to ignore the warning that this will overwrite your database.  Th
 ![](./images/11%20-%20import.png)
 
 A progress bar will be displayed while the upload proceeds.
+
+![](./images/12%20-%20loading.png)
+
+The database will then spend a few minutes processing the upload.
+
+Now that you're all done with the database setup, you're ready to run the notebook that will showcase using Neo4j AuraDS with GCP Vertex AI.  That is [here](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/master/notebooks/community/neo4j/graph_paysim.ipynb).
