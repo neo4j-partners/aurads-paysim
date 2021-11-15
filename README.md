@@ -64,7 +64,7 @@ A progress bar will be displayed while the upload proceeds.
 
 The database will then spend a few minutes processing the upload.
 
-![](./images/13%20-%20loading.png)
+![](./images/13%20-%20done.png)
 
 When all done, it looks like the screenshot above.
 
