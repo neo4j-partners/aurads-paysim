@@ -4,13 +4,15 @@ These are instructions on Loading PaySim data into Neo4j AuraDS.
 ## Account Signup
 First off, you're going to need to sign up for AuraDS.  You can do that [here](https://neo4j.com/cloud/graph-data-science/).
 
+## Login to AuraDS
+Once you have an account, you can login to it [here](https://console.neo4j.io/).
+
 ![](./images/1%20-%20login.png)
 
-Once you have an account, you can login to it [here](https://console.neo4j.io/).
+After you've logged in, you'll see the main screen.  Click `Create a Database`.
 
 ![](./images/2%20-%20main.png)
 
-After you've logged in, you'll see the main screen.  Click `Create a Database`.
 
 For "Database name" put "paysim"
 
