@@ -4,15 +4,14 @@ These are instructions on Loading PaySim data into Neo4j AuraDS.
 ## Account Signup
 First off, you're going to need to sign up for AuraDS.  You can do that [here](https://neo4j.com/cloud/graph-data-science/).
 
-## Login to AuraDS
+## Login to AuraDS and Create a Database
 Once you have an account, you can login to it [here](https://console.neo4j.io/).
 
-![](./images/1%20-%20login.png)
+![](./images/01%20-%20login.png)
 
 After you've logged in, you'll see the main screen.  Click `Create a Database`.
 
-![](./images/2%20-%20main.png)
-
+![](./images/02%20-%20main.png)
 
 For "Database name" put "paysim"
 
@@ -24,29 +23,39 @@ Under "Which algorithms are you going to use?" select: "Node Embedding"
 
 Then click "Calculate Estimate" at the bottom of the screen.  
 
-![](./images/3%20-%20estimate.png)
+![](./images/03%20-%20estimate.png)
 
 When that's complete, hit "Create Database."
 
-![](./images/4%20-%20create.png)
+![](./images/04%20-%20create.png)
 
 You'll be presented with the password for your new database.  Be sure to copy that somewhere.
 
-![](./images/5%20-%20password.png)
+![](./images/05%20-%20password.png)
 
 Your database will probably take a minute or two to setup.
 
-![](./images/6%20-%20wait.png)
+![](./images/06%20-%20wait.png)
 
 When that's all done you'll see this screen:
 
-![](./images/7%20-%20ready.png)
+![](./images/07%20-%20ready.png)
 
 Click on the database name, "paysim," to get to this page:
 
-![](./images/8%20-%20detail.png)
+![](./images/08%20-%20detail.png)
 
+## Import Data
+Now click on the "Import Database" tab.
 
-## paysim
+![](./images/09%20-%20import.png)
 
-The generator code is [here](https://github.com/voutilad/PaySim-demo)
+Click "Select a .dump file" and select the paysim.dump file from [here](xxx).
+
+![](./images/10%20-%20import.png)
+
+Click "Upload" to ignore the warning that this will overwrite your database.  The database is brand new and empty, so that's not really an issue.
+
+![](./images/11%20-%20import.png)
+
+A progress bar will be displayed while the upload proceeds.
