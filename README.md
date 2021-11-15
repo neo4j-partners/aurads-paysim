@@ -1,5 +1,5 @@
 # aurads-paysim
-These are instructions on Loading PaySim data into Neo4j AuraDS.
+These are instructions on Loading PaySim data into Neo4j AuraDS.  They're intended to be a prerequisite to running the notebook [here](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/master/notebooks/community/neo4j/graph_paysim.ipynb).
 
 ## Account Signup
 First off, you're going to need to sign up for AuraDS.  You can do that [here](https://neo4j.com/cloud/graph-data-science/).
