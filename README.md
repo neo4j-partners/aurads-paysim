@@ -64,4 +64,8 @@ A progress bar will be displayed while the upload proceeds.
 
 The database will then spend a few minutes processing the upload.
 
+![](./images/13%20-%20loading.png)
+
+When all done, it looks like the screenshot above.
+
 Now that you're all done with the database setup, you're ready to run the notebook that will showcase using Neo4j AuraDS with GCP Vertex AI.  That is [here](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/master/notebooks/community/neo4j/graph_paysim.ipynb).
