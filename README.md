@@ -50,7 +50,7 @@ Now click on the "Import Database" tab.
 
 ![](./images/09%20-%20import.png)
 
-Click "Select a .dump file" and select the paysim.dump file from [here](xxx).
+Click "Select a .dump file" and select the paysim.dump file from [here](https://storage.googleapis.com/neo4j-datasets/paysim.dump).
 
 ![](./images/10%20-%20import.png)
 
